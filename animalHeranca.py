@@ -22,7 +22,6 @@ class Gato(Animal):
         print("Meow meow!")
 
 
-# Exercício
 dog = Cachorro("Rex")
 cat = Gato("Mingau")
 
@@ -32,7 +31,6 @@ dog.latir()
 cat.emitir_som()
 cat.miar()
 
-# Polimorfismo
 animais = [dog, cat]
 
 print("\nDemonstração de polimorfismo:")
